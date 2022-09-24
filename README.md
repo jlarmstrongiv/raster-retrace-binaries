@@ -1,4 +1,4 @@
-# Pre-compiled binaries for `raster-retrace`
+# Pre-compiled binaries for [`raster-retrace`](https://crates.io/crates/raster-retrace)
 
 ## Platforms
 
