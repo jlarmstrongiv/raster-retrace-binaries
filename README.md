@@ -25,9 +25,9 @@ Compile for the oldest common denominator version of the kernel version via cent
 
 #### Interactive
 
-`docker run --platform linux/amd64 --entrypoint /bin/bash -it -v "$PWD":/var/task public.ecr.aws/lambda/nodejs:16`
+`docker run --platform linux/amd64 --entrypoint /bin/bash -it -v "$PWD":/var/task --rm public.ecr.aws/lambda/nodejs:16`
 
-`docker run --platform linux/arm64/v8 --entrypoint /bin/bash -it -v "$PWD":/var/task public.ecr.aws/lambda/nodejs:16`
+`docker run --platform linux/arm64/v8 --entrypoint /bin/bash -it -v "$PWD":/var/task --rm public.ecr.aws/lambda/nodejs:16`
 
 #### Install
 
